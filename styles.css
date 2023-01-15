@@ -278,6 +278,23 @@ header .banner{
 }
 
 
+footer .container{
+	padding-top: 38px;
+	padding-bottom: 38px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #FFF4E7;
+	border-radius: 8px;
+	margin-bottom: 216px;
+}
+footer .container p{
+	color: #424242;
+	text-align: center;
+}
+
+
+
 @media(max-width: 600px){
 
 }
