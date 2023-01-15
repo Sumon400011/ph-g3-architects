@@ -53,7 +53,10 @@ h1, p{
 	margin-right: auto;
 }
 .mb-0{
-	margin-bottom: 0px;
+	margin-bottom: 0px!important;
+}
+.mb-24{
+	margin-bottom: 24px!important;
 }
 .mx-auto{
 	margin-right: auto;
@@ -132,6 +135,27 @@ h1, p{
 	grid-gap: 75px;
 }
 
+.card{
+	padding: 30px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 30px 0px #0000000F;
+	margin-bottom: 20px;
+}
+
+.card h3{
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	margin-top: 0px;
+}
+.card p{
+	font-size: 16px;
+	color: #727272;
+	margin-bottom: 0px;
+}
+
 
 header{
 	background: rgba(255, 144, 14, 0.1);
@@ -174,6 +198,29 @@ header .banner{
 .feature-section .quick-list{
 	font-weight: 300!important;
 	color: #727272;
+}
+
+
+
+.love-feature .title{
+	padding-left: 20px;
+	position: relative;
+}
+.love-feature .title:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 5px;
+	background: #FF900E;
+}
+
+.love-feature .exp10img{
+	position: absolute;
+	bottom: 100px;
+	left: -30px;
 }
 
 @media(max-width: 600px){
